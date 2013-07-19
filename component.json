@@ -1,0 +1,20 @@
+{
+  "name": "factory",
+  "repo": "mikanda/factory",
+  "description": "Better object factories.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/object": "0.0.3"
+  },
+  "development": {
+    "visionmedia/mocha": "*",
+    "chaijs/chai": "*"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "lib/proto.js"
+  ]
+}
