@@ -30,18 +30,17 @@
 
 ## API
 
-### Factory#sequence(name, prefix)
+### Factory#sequence(name, [prefix])
 
-  Makes this attribute a sequence number.
+  Makes this attribute a sequence number.  Optional `prefix` is
+  prepended to the number.
 
 ### Factory#attr(name, fn)
 
   Defines a new attribute for which the value is calculated using
   `fn`.
 
-### Static
-
-#### Factory([defs])
+### Object([defs])
 
   Initialize new object.  `defs` is an optional map to override
   attributes.
@@ -54,10 +53,6 @@
   var user = new User({ name: 'my-other-name' });
   console.log(user.name)  // -> 'my-other-name'
   ```
-
-#### Factory#list(n)
-
-  Build an array of `n` objects.
 
 ## License
 
