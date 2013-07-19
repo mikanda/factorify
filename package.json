@@ -1,5 +1,5 @@
 {
-  "name": "factory",
+  "name": "factory-component",
   "version": "0.0.1",
   "description": "Better object factories.",
   "main": "index.js",

@@ -46,14 +46,20 @@ function create() {
    * @api private
    */
 
-  Factory = function(){
+  Factory = function(defs){
     var self = this;
-
-    // increment instance count
-
     Object.keys(Factory.attrs).forEach(function(key){
       self[key] = Factory.attrs[key].call(self);
     });
+
+    // apply overrides
+
+    Object.keys(defs || {}).forEach(function(key){
+      self[key] = defs[key];
+    });
+
+    // increment instance count
+
     ++Factory.n;
   };
   merge(Factory, proto);

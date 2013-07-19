@@ -6,7 +6,7 @@ components: component.json
 	@component install --dev
 
 clean:
-	rm -fr build components template.js
+	rm -fr build components
 
 test:
 	@node_modules/.bin/mocha --reporter spec test/index.js

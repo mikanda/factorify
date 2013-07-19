@@ -37,8 +37,9 @@ describe('Factory', function(){
     should.not.exist(provider1.name);
     should.not.exist(user.id);
     Provider.n.should.equal(1);
-    var provider2 = new Provider();
+    var provider2 = new Provider({ id: 'my-id' });
     Provider.n.should.equal(2);
+    provider2.id.should.equal('my-id');
 
     // test if sequence count works
 

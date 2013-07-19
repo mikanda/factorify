@@ -41,9 +41,19 @@
 
 ### Static
 
-#### Factory(attrs)
+#### Factory([defs])
 
-  Predefined attrs.  Will skip the generators for them.
+  Initialize new object.  `defs` is an optional map to override
+  attributes.
+
+  ```js
+  var User = factory()
+    .attr('name', function(){
+      return 'my-name';
+    });
+  var user = new User({ name: 'my-other-name' });
+  console.log(user.name)  // -> 'my-other-name'
+  ```
 
 #### Factory#list(n)
 
