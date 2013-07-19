@@ -2,7 +2,7 @@
   "name": "factory",
   "repo": "mikanda/factory",
   "description": "Better object factories.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [],
   "dependencies": {
     "component/object": "0.0.3"

@@ -1,21 +1,20 @@
 {
   "name": "factory-component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Better object factories.",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "chai": "~1.7.2",
-    "object-component": "0.0.3",
-    "each-component": "0.0.1"
+    "object-component": "0.0.3"
   },
   "devDependencies": {
+    "chai": "~1.7.2",
     "mocha": "~1.12.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "make test"
   },
   "repository": {
     "type": "git",

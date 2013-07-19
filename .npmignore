@@ -1,0 +1,8 @@
+.gitignore
+build/
+components/
+node_modules/
+History.md
+component.json
+Makefile
+test/
