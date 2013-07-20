@@ -1,8 +1,8 @@
 {
-  "name": "factory",
-  "repo": "mikanda/factory",
+  "name": "factorify",
+  "repo": "mikanda/factorify",
   "description": "Better object factories.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [],
   "dependencies": {
     "component/object": "0.0.3"
