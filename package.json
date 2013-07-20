@@ -1,6 +1,6 @@
 {
   "name": "factorify",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Better object factories.",
   "main": "index.js",
   "directories": {

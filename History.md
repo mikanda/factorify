@@ -1,5 +1,11 @@
 
-0.0.3 / 2013-07-19
+0.0.4 / 2013-07-20
+==================
+
+ * Updated readme
+ * Updated tests
+
+0.0.3 / 2013-07-20
 ==================
 
  * Renamed project to factorify
