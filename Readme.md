@@ -7,12 +7,12 @@
 
   Install with [component(1)](http://component.io):
 
-    $ component install mikanda/factory
+    $ component install mikanda/factorify
 
 ## Usage
 
   ```js
-  var factory = require('factory');
+  var factory = require('factorify');
 
   // build factory
 
