@@ -1,5 +1,5 @@
 
-# factory
+# factorify
 
   Better object factories.
 
