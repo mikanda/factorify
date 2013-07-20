@@ -9,7 +9,7 @@ var factory;
 if (typeof window === 'undefined') {
   factory = require('..');
 } else {
-  factory = require('factory');
+  factory = require('factorify');
 }
 
 /**
