@@ -27,7 +27,7 @@ describe('Factory', function(){
       .attr('id', function(){
         return 'provider-id';
       });
-    var user = new User();
+    var user = User();
     var provider1 = new Provider();
     user.name.should.equal('Edward');
     User.n.should.equal(1);

@@ -42,11 +42,10 @@ function create() {
 
   /**
    * Factory constructor.
-   *
-   * @api private
    */
 
   Factory = function(defs){
+    if (!(this instanceof Factory)) return new Factory(defs);
     var self = this;
     Object.keys(Factory.attrs).forEach(function(key){
       self[key] = Factory.attrs[key].call(self);
